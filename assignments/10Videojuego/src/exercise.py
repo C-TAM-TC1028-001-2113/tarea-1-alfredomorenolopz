@@ -1,5 +1,6 @@
 def main():
     # escribe tu código abajo de esta línea
+    pass
     juegos_nuevos = int(input("Dame la cantidad de juegos nuevos: "))
     juegos_usados = int(input("Dame la cantidad de juegos usados: "))
 
