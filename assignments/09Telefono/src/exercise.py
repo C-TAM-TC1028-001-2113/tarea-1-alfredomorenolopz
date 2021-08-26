@@ -1,6 +1,6 @@
 def main():
     # escribe tu código abajo de esta línea
-    pass
+
     num_msj = int(input("Dame el número de mensajes: "))
     num_megas = float(input("Dame el número de megas: "))
     num_min = int(input("Dame el número de minutos: "))
