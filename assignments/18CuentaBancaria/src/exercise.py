@@ -9,8 +9,9 @@ def main():
     saldo_final = (saldo_mes_anterior + ingresos) - (egresos +(num_cheques * 13))
     interes_saldo = (saldo_final * 0.075)
     saldo_por_mostrar = saldo_final - interes_saldo
+    saldo_mostrar_final = round(saldo_por_mostrar, 5)
 
-    print("El saldo final de la cuenta es:", saldo_por_mostrar)
+    print("El saldo final de la cuenta es:", saldo_mostrar_final)
 
 
 if __name__ == '__main__':
